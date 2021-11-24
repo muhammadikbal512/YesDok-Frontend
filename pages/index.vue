@@ -1,8 +1,11 @@
 <template>
-  <Header />
-  <Content />
+  <div>
+    <Header />
+    <Content />
+    <Footer />
+  </div>
 </template>
 
 <script>
-export default {}
+export default {};
 </script>

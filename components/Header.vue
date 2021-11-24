@@ -153,14 +153,4 @@
   </div>
 </template>
 
-<script>
-import axios from 'axios'
-export default {
-  created() {
-    axios.get('https://jsonplaceholder.typicode.com/posts?userId=1')
-    .then(response => {
-      console.log(response)
-    })
-  }
-}
-</script>
+
