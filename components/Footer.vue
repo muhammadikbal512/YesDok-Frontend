@@ -270,7 +270,7 @@
               <table style="padding: 0px; margin: 0px">
                 <tbody>
                   <tr>
-                    <td style="vertical-align: top; width: 30px">
+                    <td style="vertical-align: top;">
                       <span>
                         <a
                           href="https://www.facebook.com/yesdok24jam/"
@@ -278,14 +278,14 @@
                           rel="nofollow"
                         >
                           <img
-                            src="/img/facebook.png"
+                            src="~/assets/img/facebook.png"
                             style="height: 50px; margin-right: 8px"
                           />
                         </a>
                       </span>
                     </td>
                     <td>&nbsp;</td>
-                    <td style="vertical-align: top; width: 30px">
+                    <td style="vertical-align: top;">
                       <span>
                         <a
                           href="https://twitter.com/yesdok_id/"
@@ -293,14 +293,14 @@
                           rel="nofollow"
                         >
                           <img
-                            src="/img/twitter.png"
+                            src="~/assets/img/twitter.png"
                             style="height: 50px; margin-right: 8px"
                           />
                         </a>
                       </span>
                     </td>
                     <td>&nbsp;</td>
-                    <td style="vertical-align: top; width: 30px">
+                    <td style="vertical-align: top;">
                       <span>
                         <a
                           href="https://instagram.com/yesdok_id"
@@ -308,7 +308,7 @@
                           rel="nofollow"
                         >
                           <img
-                            src="/img/instagram.png"
+                            src="~/assets/img/instagram.png"
                             style="height: 50px; margin-right: 8px"
                           />
                         </a>
@@ -325,8 +325,8 @@
     <div class="container mx-auto px-6">
       <div class="mt-16 border-t-2 border-gray-300 flex flex-col items-center">
         <div class="sm:w-2/3 text-center py-6">
-          <p class="text-sm text-blue-700 font-bold mb-2">
-            © 2020 by Pavlove BIOKOU
+          <p class="text-sm text-white font-bold mb-2">
+            COPYRIGHT ©2021 ALL RIGHTS RESERVED BY YesDok
           </p>
         </div>
       </div>

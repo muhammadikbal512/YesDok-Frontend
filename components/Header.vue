@@ -6,18 +6,18 @@
           <img src="~/assets/img/yesdok.png" width="150px;" />
           <button
             class="
-              border border-solid border-gray-600
+              border border-solid border-white
               px-3
               py-1
               rounded
-              text-gray-600
+              text-white
               opacity-50
               hover:opacity-75
               md:hidden
             "
             id="navbar-toggle"
           >
-            <fa icon="bars" />
+           <font-awesome-icon icon="bars"  style="color:white;"/>
           </button>
         </div>
 
@@ -153,4 +153,16 @@
   </div>
 </template>
 
+<script>
+export default {
+  mounted() {
+    let toggleBtn = document.querySelector("#navbar-toggle");
+    let collapse = document.querySelector("#navbar-collapse");
 
+    toggleBtn.onclick = () => {
+      collapse.classList.toggle("hidden");
+      collapse.classList.toggle("flex");
+    };
+  },
+};
+</script>

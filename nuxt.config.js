@@ -40,7 +40,7 @@ export default {
   ],
 
   fontawesome: {
-    components: 'fa',
+    component: 'fa',
     icons: {
       solid: true,
       brands: true

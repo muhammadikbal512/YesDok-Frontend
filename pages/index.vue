@@ -3,6 +3,7 @@
     <Header />
     <Content />
     <Footer />
+    <nuxt-link to="/article">asd</nuxt-link>
   </div>
 </template>
 

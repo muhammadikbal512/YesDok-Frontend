@@ -9,7 +9,9 @@
     <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-6">
         <div v-for="post in posts" :key="post.id" class="w-full bg-white rounded-lg sahdow-lg overflow-hidden flex flex-col justify-center items-center">
             <div>
+              <nuxt-link to="/article/:id">
                 <img class="object-center object-cover h-auto w-full" :src="post.image" alt="photo">
+              </nuxt-link>
             </div>
             <div class="text-center py-8 sm:py-6">
                 <p class="text-xl text-gray-700 font-bold mb-2">{{ post.title }}</p>
